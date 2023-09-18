@@ -23,4 +23,4 @@ jobs:
           server: https://thisux.in
           app: 'advice'
           token: '${{ secrets.APP_TOKEN }}'
-          image: 'ghcr.io/spikeysanju/advice:latest'
+          image: 'ghcr.io/Spikeysanju/advice:latest'

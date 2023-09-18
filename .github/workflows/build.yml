@@ -21,6 +21,6 @@ jobs:
         uses: caprover/deploy-from-github@v1.1.2
         with:
           server: https://thisux.in
-          app: 'advice'
+          app: 'sveltekit'
           token: '${{ secrets.APP_TOKEN }}'
-          image: 'ghcr.io/spikeysanju/advice:latest'
+          image: 'ghcr.io/spikeysanju/sveltekit:latest'

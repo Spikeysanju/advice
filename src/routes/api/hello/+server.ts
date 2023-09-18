@@ -1,5 +1,5 @@
 export const GET = async () => {
-	console.log('Timer started for 10 secs');
+	console.log('Timer started for 60 secs');
 	await new Promise((resolve) => setTimeout(resolve, 60000));
 	console.log('Timer finished');
 	return new Response(JSON.stringify({ message: 'Hello from the server!' }), {
